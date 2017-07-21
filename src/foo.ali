@@ -1,0 +1,25 @@
+V "GNAT Lib v2016"
+A -g
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+
+U foo%b			foo.adb			34689af4 NE OO PK
+
+U foo%s			foo.ads			ec482692 EE NE OO PK
+
+D foo.ads		20170110191911 ec482692 foo%s
+D foo.adb		20170110191902 d820bc66 foo%b
+D system.ads		20160516092929 6326c08a system%s
+X 1 foo.ads
+1K9*Foo 8l5 8e8 2|1b14 17l5 17t8
+3F11*My_Float{float} 2|5r11
+5U13*Increase 2|7b13 10l7 10t15
+6U13*Reset 2|12b13 15l7 15t12
+X 2 foo.adb
+3N3 Initial_Value 5r23 14r14
+5f3 Value{1|3F11} 9m5 9r14 14m5
+
